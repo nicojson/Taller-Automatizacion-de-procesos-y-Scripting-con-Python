@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
-TOKEN = "9142709630:AAGNbFL7zRX1tJwoPFws5f2HTUkbSsafxG4"  # Pega aquí el token de BotFather
-CHAT_ID = "8658331156"           # Pega aquí tu ID de userinfobot
+TOKEN = ""  # Pega aquí el token de BotFather
+CHAT_ID = ""           # Pega aquí tu ID de userinfobot
 URL = "https://sii.celaya.tecnm.mx/residencias-publicas/y9sXXxE9JMKXRonyeRBiDRyPKbIKIL4pPUXqjGOTYGL6JQ"
 
 # 1. Función para raspar y filtrar el portal del TecNM Celaya
